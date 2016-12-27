@@ -1,4 +1,4 @@
-package airplane;
+package task_airplane;
 
 /**
  * Created by Dyvak on 20.12.2016.
@@ -39,13 +39,13 @@ class StrategyClient{
 
 class Airplane{
     void is(){
-        System.out.println("airplane on ground");
+        System.out.println("task_airplane on ground");
     }
 }
 
 class Flying extends Airplane{
     void is(){
-        System.out.println("airplane on air");
+        System.out.println("task_airplane on air");
     }
 }
 

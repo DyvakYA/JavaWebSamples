@@ -1,4 +1,4 @@
-package salad;
+package task_salad;
 
 /**
  * Created by Dyvak on 20.12.2016.
