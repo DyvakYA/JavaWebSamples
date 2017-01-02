@@ -1,32 +1,49 @@
-package task_salad;
+package task_pizza;
 
 /**
  * Created by Dyvak on 20.12.2016.
  */
-class SaladOne {
+class PizzaOne {
     public static void main(String[] args) {
-        Salad salad = new SaladBuilderOne()
+        Pizza pizza = new PizzaBuilderOne()
                 .buildSeasoning(Seasoning.SALT)
                 .buildOil(Oil.OLIVE)
-                .buildVegetables(Vegetables.CUCUMBER,Vegetables.TOMATO)
+                .buildVegetables(Vegetables.CUCUMBER, Vegetables.TOMATO)
                 .build();
-        System.out.println(salad);
+        System.out.println(pizza);
     }
 }
 
 enum Seasoning{
-    PEPER, SALT
+    PEPER(2.00),
+    SALT (5.00);
+
+    Seasoning(double v) {
+
+    }
 }
 
 enum Oil{
-    OLIVE, SUNFLOVER, VINEGAR
+    OLIVE(3.00),
+    SUNFLOVER(4.90),
+    VINEGAR(5.99);
+
+    Oil(double v) {
+
+    }
 }
 
 enum Vegetables{
-    CUCUMBER, TOMATO, POTATO
+    CUCUMBER(1.90),
+    TOMATO(2.50),
+    POTATO(3.20);
+
+    Vegetables(double v) {
+
+    }
 }
 
-class Salad {
+class Pizza {
     Seasoning seasoning;
     Oil oil;
     Vegetables v1;
@@ -56,7 +73,7 @@ class Salad {
     }
 }
 
-class SaladBuilderOne {
+class PizzaBuilderOne {
     Seasoning s;
     Oil o;
     Vegetables v1;
@@ -64,24 +81,24 @@ class SaladBuilderOne {
 
 
 
-    SaladBuilderOne buildSeasoning(Seasoning s) {
+    PizzaBuilderOne buildSeasoning(Seasoning s) {
         this.s = s;
         return this;
     }
 
-    SaladBuilderOne buildOil(Oil o) {
+    PizzaBuilderOne buildOil(Oil o) {
         this.o = o;
         return this;
     }
 
-    SaladBuilderOne buildVegetables(Vegetables v1, Vegetables v2) {
+    PizzaBuilderOne buildVegetables(Vegetables v1, Vegetables v2) {
         this.v1 = v1;
         this.v2 = v2;
         return this;
     }
 
-    Salad build() {
-        Salad car = new Salad();
+    Pizza build() {
+        Pizza car = new Pizza();
         car.setSeasoning(s);
         car.setOil(o);
         car.setVegetables(v1, v2);
