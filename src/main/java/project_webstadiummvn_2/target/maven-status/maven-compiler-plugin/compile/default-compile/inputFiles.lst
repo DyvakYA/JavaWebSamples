@@ -1,0 +1,17 @@
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\App.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\controller\commands\GetCities.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\model\services\CityService.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\model\dao\jdbc\JdbcPersonDao.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\controller\commands\Command.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\model\dao\jdbc\JdbcDaoFactory.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\model\dao\GenericDao.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\controller\commands\Login.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\model\dao\DaoFactory.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\model\dao\jdbc\JdbcCityDao.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\model\dao\PersonDao.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\model\entities\City.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\model\dao\CityDao.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\controller\commands\GetTeams.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\model\entities\Person.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\model\services\PersonService.java
+C:\Users\sds\workspace\webstadiummvn\src\main\java\ua\training\controller\FrontController.java
